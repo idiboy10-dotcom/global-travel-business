@@ -18,3 +18,6 @@ git clone https://github.com/idiboy10-dotcom/global-travel-business.git
 cd global-travel-business
 pip install -r requirements.txt
 streamlit run mon_site.py
+## 🚀 Lancer l'application
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://monsitepy-6sfftudaj8bk2pwmk33h3n.streamlit.app)
