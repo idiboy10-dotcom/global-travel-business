@@ -25,6 +25,6 @@ streamlit run mon_site.py
 
 [![Open in Streamlit](https://img.shields.io/badge/🌍%20Global%20Travel%20Business-Gold?style=for-the-badge&logo=streamlit&logoColor=white)](https://monsitepy-6sfftudaj8bk2pwmk33h3n.streamlit.app)
 ## 🚀 Lancer l'application
+https://raw.githubusercontent.com/idiboy10-dotcom/global-travel-business/refs/heads/main/logo%20tavel%20business%20service.png
 
-[![Open in Streamlit](https://img.shields.io/badge/🌍%20Global%20Travel%20Business-Gold?style=for-the-badge&logo=https://github.com/idiboy10-dotcom/global-travel-business/blob/main/logo.png&logoColor=white)](https://monsitepy-6sfftudaj8bk2pwmk33h3n.streamlit.app)
-https://raw.githubusercontent.com/idiboy10-dotcom/global-travel-business/refs/heads/main/logo%20tavel%20business%20service.jpg
+
