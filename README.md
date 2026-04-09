@@ -21,3 +21,6 @@ streamlit run mon_site.py
 ## 🚀 Lancer l'application
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://monsitepy-6sfftudaj8bk2pwmk33h3n.streamlit.app)
+## 🚀 Lancer l'application
+
+[![Open in Streamlit](https://img.shields.io/badge/🌍%20Global%20Travel%20Business-Gold?style=for-the-badge&logo=streamlit&logoColor=white)](https://monsitepy-6sfftudaj8bk2pwmk33h3n.streamlit.app)
