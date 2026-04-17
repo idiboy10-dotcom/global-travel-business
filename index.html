@@ -3,60 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <title>Global Travel Business</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; background-color: #111; color: gold; margin:0; padding:0; }
-    .logo { margin-top: 30px; }
-    .btn { display: inline-block; margin: 10px; padding: 15px 30px; background: gold; color: #111; text-decoration: none; font-weight: bold; border-radius: 8px; }
-    .section { margin: 40px auto; max-width: 800px; }
-    h2 { color: gold; }
-    .gallery { display:flex; justify-content:center; gap:20px; flex-wrap:wrap; }
-    .gallery img { border-radius: 8px; box-shadow: 0 0 10px rgba(255,215,0,0.6); }
+    body { background-color: #0d1b2a; color: #f1c40f; }
+    .navbar { background-color: #1b263b; }
+    .card { border: none; box-shadow: 0 0 10px rgba(241,196,15,0.5); }
+    .btn-gold { background-color: #f1c40f; color: #0d1b2a; font-weight: bold; }
+    h2 { margin-top: 40px; color: #f1c40f; }
   </style>
 </head>
 <body>
-  <!-- Logo -->
-  <div class="logo">
-    <img src="https://raw.githubusercontent.com/idiboy10-dotcom/global-travel-business/main/logo%20tavel%20business%20service.png" width="200" alt="Logo Global Travel Business">
+
+  <!-- Header -->
+  <nav class="navbar navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-auto" href="#">
+        <img src="https://raw.githubusercontent.com/idiboy10-dotcom/global-travel-business/main/logo%20tavel%20business%20service.png" alt="Logo" width="80">
+        Global Travel Business
+      </a>
+    </div>
+  </nav>
+
+  <div class="container text-center mt-4">
+    <h1>🌍 Agence de voyages internationale</h1>
+    <a href="https://monsitepy-6sfftudaj8bk2pwmk33h3n.streamlit.app" class="btn btn-gold mt-3">Accéder à l'application</a>
   </div>
 
-  <!-- Titre -->
-  <h1>🌍 Global Travel Business</h1>
-
-  <!-- Bouton vers l'application -->
-  <a class="btn" href="https://monsitepy-6sfftudaj8bk2pwmk33h3n.streamlit.app">Accéder à l'application</a>
-
-  <!-- Section À propos (FR) -->
-  <div class="section">
-    <h2>✨ À propos</h2>
-    <p>Bienvenue sur Global Travel Business, une plateforme premium dédiée aux voyages modernes et élégants.</p>
-    <p>Notre mission est de proposer des expériences uniques, en mettant en avant l’identité sénégalaise et une approche haut de gamme.</p>
-  </div>
-
-  <!-- Section About (EN) -->
-  <div class="section">
-    <h2>✨ About</h2>
-    <p>Welcome to Global Travel Business, a premium platform dedicated to modern and elegant travel.</p>
-    <p>Our mission is to provide unique experiences, highlighting Senegalese identity and a high-end approach.</p>
-  </div>
-
-  <!-- Galerie de captures d’écran -->
-  <div class="section">
-    <h2>🖼️ Captures d’écran / Screenshots</h2>
-    <p>Découvrez l’interface de l’application / Explore the app interface:</p>
-    <div class="gallery">
-      <img src="https://raw.githubusercontent.com/idiboy10-dotcom/global-travel-business/main/screenshots/homepage.png" width="300" alt="Capture d’écran - Page d’accueil">
-      <img src="https://raw.githubusercontent.com/idiboy10-dotcom/global-travel-business/main/screenshots/reservation.png" width="300" alt="Capture d’écran - Formulaire de réservation">
-      <img src="https://raw.githubusercontent.com/idiboy10-dotcom/global-travel-business/main/screenshots/analytics.png" width="300" alt="Capture d’écran - Tableau de bord analytique">
+  <!-- Destinations phares -->
+  <div class="container mt-5">
+    <h2>✨ Destinations phares</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Gor%C3%A9e_Island.jpg" class="card-img-top" alt="Île de Gorée">
+          <div class="card-body">
+            <h5 class="card-title">Île de Gorée – Sénégal</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Elephants_Kilimanjaro.jpg" class="card-img-top" alt="Safari Kenya">
+          <div class="card-body">
+            <h5 class="card-title">Safari au Kenya</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_nuit.jpg" class="card-img-top" alt="Paris">
+          <div class="card-body">
+            <h5 class="card-title">Paris – France</h5>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- Liens utiles -->
-  <div class="section">
-    <h2>🔗 Liens utiles / Useful Links</h2>
-    <a class="btn" href="https://monsitepy-6sfftudaj8bk2pwmk33h3n.streamlit.app">🌐 Application Streamlit</a>
-    <a class="btn" href="https://github.com/idiboy10-dotcom/global-travel-business">💻 Dépôt GitHub</a>
-    <p>✉️ Email : contact@globaltravelbusiness.com</p>
-    <p>📍 Dakar, Sénégal</p>
+  <!-- Offres spéciales -->
+  <div class="container mt-5">
+    <h2>💎 Offres Spéciales</h2>
+    <ul class="list-group">
+      <li class="list-group-item">Durée : 2 jours – Prix : 130 000 FCFA – 18% Promo</li>
+      <li class="list-group-item">Durée : 3 jours – Prix : 360 100 FCFA – 18% Promo</li>
+      <li class="list-group-item">Durée : 3 jours – Prix : 400 900 FCFA – 5% Promo</li>
+    </ul>
   </div>
+
+  <!-- Réservation -->
+  <div class="container mt-5">
+    <h2>📝 Réservation en ligne</h2>
+    <form>
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Nom complet">
+      </div>
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="Adresse e-mail">
+      </div>
+      <div class="mb-3">
+        <select class="form-select">
+          <option>Choisissez votre destination</option>
+          <option>Île de Gorée</option>
+          <option>Safari Kenya</option>
+          <option>Paris</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-gold">Envoyer la réservation</button>
+    </form>
+  </div>
+
+  <!-- Liens utiles -->
+  <div class="container mt-5 text-center">
+    <h2>🔗 Liens utiles</h2>
+    <a class="btn btn-gold m-2" href="https://monsitepy-6sfftudaj8bk2pwmk33h3n.streamlit.app">🌐 Application Streamlit</a>
+    <a class="btn btn-gold m-2" href="https://github.com/idiboy10-dotcom/global-travel-business">💻 Dépôt GitHub</a>
+    <p class="mt-3">✉️ contact@globaltravelbusiness.com | 📍 Dakar, Sénégal</p>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
