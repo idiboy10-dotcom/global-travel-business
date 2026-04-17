@@ -4,6 +4,24 @@
   <meta charset="UTF-8">
   <title>Global Travel Business</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .card-img-top {
+      border-radius: 10px;       /* arrondir les coins */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* ajouter une ombre élégante */
+      transition: transform 0.3s ease; /* effet au survol */
+    }
+    .card-img-top:hover {
+      transform: scale(1.05);   /* zoom léger au survol */
+    }
+    .card {
+      border: none;             /* enlever bordures par défaut */
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* ombre douce autour de la carte */
+    }
+    h1 {
+      font-weight: bold;
+      color: #d4af37;           /* doré premium */
+    }
+  </style>
 </head>
 <body>
   <div class="container mt-5">
@@ -11,10 +29,10 @@
     <div class="row">
 
       <!-- Carte Gorée -->
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="card">
           <img src="goree.jpg" alt="Île de Gorée" class="card-img-top">
-          <div class="card-body">
+          <div class="card-body text-center">
             <h5 class="card-title">Île de Gorée</h5>
             <p class="card-text">Découvrez l’histoire et la beauté de Gorée.</p>
           </div>
@@ -22,10 +40,10 @@
       </div>
 
       <!-- Carte Kenya -->
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="card">
           <img src="kenya.jpg" alt="Safari au Kenya" class="card-img-top">
-          <div class="card-body">
+          <div class="card-body text-center">
             <h5 class="card-title">Safari au Kenya</h5>
             <p class="card-text">Vivez l’aventure au cœur de la savane.</p>
           </div>
@@ -33,10 +51,10 @@
       </div>
 
       <!-- Carte Paris -->
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="card">
           <img src="paris.jpg" alt="Paris" class="card-img-top">
-          <div class="card-body">
+          <div class="card-body text-center">
             <h5 class="card-title">Paris</h5>
             <p class="card-text">Explorez la Ville Lumière et ses monuments.</p>
           </div>
